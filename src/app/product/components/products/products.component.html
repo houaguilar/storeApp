@@ -1,0 +1,12 @@
+<div class="product-grid">
+  <app-product *ngFor="let product of products" (productClicked)="clickProduct($event)"
+               [product]="product"></app-product>
+</div>
+
+<!--<mat-grid-list cols="4" rowHeight="100px">
+  <mat-grid-tile
+    *ngFor="let product of products">
+    {{product}}
+  </mat-grid-tile>
+</mat-grid-list>-->
+

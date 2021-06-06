@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/storeApp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

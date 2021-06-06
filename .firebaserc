@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "store-c50b9": {
+      "hosting": {
+        "storeApp": [
+          "store-c50b9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "store-c50b9"
+  }
+}
